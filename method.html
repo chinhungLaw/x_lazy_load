@@ -1,0 +1,59 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="baidu-site-verification" content="G5EuOUEqQ0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>九游手机网游_手机游戏下载第一门户_最好玩的手机游戏排行榜</title>
+    <meta name="keywords" content="手机网游,手机游戏,手机游戏下载,手机游戏免费下载,好玩的手机游戏,好玩的手机网游,手机游戏排行榜,手机网游排行,九游,9game" />
+    <meta name="description" content="九游手机网游,手机游戏第一门户！为玩家提供最新手机游戏免费下载,最热门的手机游戏排行榜,最好玩的手机游戏攻略。" />
+    <base target="_blank">
+    <link rel="stylesheet" type="text/css" href="http://www.9game.cn/public/stylesheets/pc2/public_9game.css">
+    <link rel="stylesheet" type="text/css" href="http://www.9game.cn/public/stylesheets/pc2/pcnew_public.css">
+    <link rel="stylesheet" type="text/css" href="http://www.9game.cn/public/stylesheets/pc2/pcnew_index.css">
+</head>
+<style type="text/css">
+	body{
+		padding:20px;
+		font-family:'微软雅黑';
+	}
+	a{
+		font-size:24px;
+		font-weight:700;
+		color:green;
+	}
+	p,xmp{
+		font-size:16px;
+	}
+</style>
+<body>
+    <a href="./tex.html">DEMO1</a><br/>
+    <a href="./tex2.html">DEMO2</a>
+	<h1>使用方法:</h1>
+	<h2>1.加载JS</h2>
+	<xmp>
+		<script type="text/javascript" src="lazy_load.js" ></script>
+	</xmp>
+	<h2>2.设置IMG属性</h2>
+	<xmp>
+		<img src="http://placehold.it/90x90"  class="xLazyClass" xLazyImg="http://image.game.uc.cn/2014/2/17/9631225.jpg" alt="仙剑奇缘"/>
+	</xmp>
+	<h1>API</h1>
+	<h3>1.设置class</h3>
+	<p>需要惰性加载的图片class="xLazyClass"</p>
+	<h3>2.设置图片真实路径</h3>
+	<p>xLazyImg="http://image.game.uc.cn/2014/2/17/9631225.jpg"</p>
+	<h3>3.设置图片假路径</h3>
+	<p>src="http://placehold.it/90x90"</p><br/><br/>
+	<h1>如要修改JS参数请在JS处加id="xManLazyLoad"</h1>
+	<p>修改需要加载图片的样式名: xdata-class="Class"</p>
+	<p>修改需要加载图片的真实值: xdata-attr="Img"</p>
+	<p>修改惰性值: xdata-lazy="100"</p>
+	<xmp>
+		<script type="text/javascript" src="lazy_load.js" id="xManLazyLoad" xdata-class="Class" xdata-attr="Img" xdata-lazy="100" ></script>
+	</xmp>
+	<xmp>
+		<img src="http://placehold.it/90x90"  class="Class" Img="http://image.game.uc.cn/2014/2/17/9631225.jpg" alt="仙剑奇缘"/>
+	</xmp>
+<script type="text/javascript" src="xManLazyLoad.js" id="xManLazyLoad" xdata-class="xLazyClass" xdata-attr="xLazyImg" xdata-lazy="20" ></script>
+</html>
